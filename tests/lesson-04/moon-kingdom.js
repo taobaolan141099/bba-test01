@@ -31,8 +31,6 @@ let sortPlayers = players.sort((a, b) => {
     return b.score - a.score
 });
 
-console.log("LeaderBoard: ", sortPlayers);
-
 for (let i = 0; i < sortPlayers.length; i++) {
     if (i === 0)
         sortPlayers[i].medal = "🥇"
