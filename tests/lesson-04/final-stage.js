@@ -13,21 +13,14 @@ let numbers = [
 
 let count = 0;
 let pairsNumber = [];
-<<<<<<< HEAD
 let sum = 0
-=======
->>>>>>> 79e56721bc46cea36492230c670380fb0ef40586
 
-for (let i = 10; i < numbers.length; i++) {
-    for (let x = 10; x < numbers.length; x++) {
+for (let i = 0; i < numbers.length; i++) {
+    for (let x = 0; x < numbers.length; x++) {
         if ((i + x) % 17 === 0) {
             count = count + 1;
-<<<<<<< HEAD
             sum = i + x;
             pairsNumber.push(`Cặp ${i} và ${x} có tổng là ${sum} và chia hết cho 17`);
-=======
-            pairsNumber.push(`Cặp ${i} và ${x} chia hết cho 17`);
->>>>>>> 79e56721bc46cea36492230c670380fb0ef40586
             pairsNumber.push('\n');
         }
     }
