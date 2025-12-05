@@ -32,12 +32,15 @@ let sortPlayers = players.sort((a, b) => {
 });
 
 for (let i = 0; i < sortPlayers.length; i++) {
-    if (i === 0)
+    if (i === 0) {
         sortPlayers[i].medal = "🥇"
-    if (i === 1)
+    }
+    if (i === 1) {
         sortPlayers[i].medal = "🥈"
-    if (i === 2)
+    }
+    if (i === 2) {
         sortPlayers[i].medal = "🥉"
+    }
 }
 
 console.log("LeaderBoard: ", sortPlayers);
